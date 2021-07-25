@@ -37,15 +37,9 @@ public class MongoManager {
 
     public void connect() {
         try {
-<<<<<<< HEAD
             MongoCredential credential = MongoCredential.createCredential(MongoDBConfig.get().getString("username"), MongoDBConfig.get().getString("database"), MongoDBConfig.get().getString("password").toCharArray());
             client = new MongoClient(new ServerAddress(MongoDBConfig.get().getString("host"), 27017), Collections.singletonList(credential));
             database = client.getDatabase(MongoDBConfig.get().getString("database"));
-=======
-            MongoCredential credential = MongoCredential.createCredential("FIck deine Eltern", "Nein amn", "No, sir".toCharArray());
-            client = new MongoClient(new ServerAddress("ICh hasse dich", 27017), Collections.singletonList(credential));
-            database = client.getDatabase("NEIN!");
->>>>>>> 46888185c224ca5389c203a78e9a7bd8b1274085
             serverCollection = database.getCollection("Server");
             Bukkit.getLogger().info(TTT.prefix + "§aSuccessfully connected to the database!");
         } catch (Exception e) {
