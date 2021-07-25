@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TTT">
+    <output-path>$USER_HOME$/OneDrive/Desktop/Server 1.8/plugins</output-path>
+    <root id="archive" name="TTT.jar">
+      <element id="module-output" name="TTTFinal" />
+    </root>
+  </artifact>
+</component>

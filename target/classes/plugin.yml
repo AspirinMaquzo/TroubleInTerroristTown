@@ -1,0 +1,31 @@
+main: me.maquzo.TTT.TTT
+author: Maquzo
+name: TTT
+version: 1.0
+
+commands:
+  setup:
+    description: Setup
+  Forcestart:
+    description: Start the round
+  shop:
+    description: open the traitor/detective Shop
+    aliases: s
+  stats:
+    description: Show stats
+    aliases: st
+  PassShop:
+    description: buy passes
+    aliases: ps, passS
+  PassList:
+    description: show your passes
+    aliases: PassL, PList
+  Pass:
+    description: yes
+  Trap:
+    description: vote
+  Reset:
+    description: resetes your data
+  Rank:
+    description: Shows ranks
+    aliases: r
