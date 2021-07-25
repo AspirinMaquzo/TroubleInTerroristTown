@@ -37,8 +37,8 @@ public class RoleManager {
 
     public void roleManager() {
         int playerSize = players.size();
-        traitorSize = 1; //(int) Math.round(Math.log(playerSize) * 1.2);
-        detectiveSize = 1;//(int) Math.round(Math.log(playerSize) * 0.75);
+        traitorSize = (int) Math.round(Math.log(playerSize) * 1.2);
+        detectiveSize = (int) Math.round(Math.log(playerSize) * 0.75);
         innocentSize = playerSize - traitorSize - detectiveSize;
 
 
