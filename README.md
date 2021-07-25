@@ -1,1 +1,5 @@
-Maquzo lern coden
+TTT Plugin
+
+Commands:
+
+-> ![Commands](TroubleInTerroristTown/src/main/resources/plugin.yml)
